@@ -1,0 +1,45 @@
+/* src/App.css */
+:root {
+    --primary-color: #7E57C2;
+    --secondary-color: #FF7043;
+    --accent-color: #F3B700;
+    --success-color: #86BA90;
+    --dark-color: #323031;
+    --light-color: #E0E0E0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    height: 100%;
+    width: 100%;
+    font-family: "SUSE", sans-serif;
+  }
+  
+  h1, h2 {
+    color: var(--primary-color);
+  }
+  
+  button {
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 20px;
+    filter: drop-shadow(8px 8px 3px rgba(0,0,0,0.27));
+  }
+  
+  button:hover {
+    background-color: var(--accent-color);
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--dark-color);
+  }
+  
